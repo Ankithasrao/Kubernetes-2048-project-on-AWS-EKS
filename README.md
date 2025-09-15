@@ -1,3 +1,8 @@
+![Alt Text](C:\Users\raosw\Desktop\AWSDevOps\Screen-shots\Kubernetes\K8s peoject on AWS EKS/EKS cluster 10/png)
+
+
+
+
 ## 📌 Project Overview
 - Deploys the 2048 game as a Kubernetes application.
 - Uses AWS EKS as the Kubernetes cluster.
