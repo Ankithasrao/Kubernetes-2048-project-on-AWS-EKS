@@ -139,7 +139,7 @@ kubectl get ingress -n game-2048
 ```
 ##### 🟢 Check the ALB DNS in browser once it Active:
 
-##### Open http:// <alb-dns> to play the 2048 game.
+##### Open http://<alb-dns> to play the 2048 game.
 
 ## 🧹 Step-by-Step: Delete All Resources
 ##### ✅ 1. Delete Kubernetes Resources (Ingress, Service, Deployments)
@@ -167,7 +167,8 @@ eksctl delete iamserviceaccount \
   --region <region-name>
   ```
   ##### ✅ 4. Delete IAM Policy
-  ``` aws iam delete-policy --policy-arn arn:aws:iam::<your-aws-account-id>:policy/AWSLoadBalancerControllerIAMPolicy
+  ```
+   aws iam delete-policy --policy-arn arn:aws:iam::<your-aws-account-id>:policy/AWSLoadBalancerControllerIAMPolicy
   ```
   ###### Replace <your-aws-account-id> accordingly.
   
