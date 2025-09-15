@@ -139,11 +139,12 @@ kubectl get ingress -n game-2048
 ```
 ##### 🟢 Check the ALB DNS in browser once it Active:
 
-##### Open http://<alb-dns> to play the 2048 game.
+##### Open http:// <alb-dns> to play the 2048 game.
 
 ## 🧹 Step-by-Step: Delete All Resources
 ##### ✅ 1. Delete Kubernetes Resources (Ingress, Service, Deployments)
-```kubectl delete -f https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.5.4/docs/examples/2048/2048_full.yaml
+```
+kubectl delete -f https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.5.4/docs/examples/2048/2048_full.yaml
 ```
 ##### ✅ 2. Delete Fargate Profile
 ```
