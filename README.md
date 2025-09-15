@@ -1,6 +1,6 @@
-![Alt Text](C:\Users\raosw\Desktop\AWSDevOps\Screen-shots\Kubernetes\K8s peoject on AWS EKS/EKS cluster 10/png)
 
 
+<img width="1126" height="941" alt="EKS cluster 10" src="https://github.com/user-attachments/assets/f341dc12-f496-4264-9382-28f4e384f44b" />
 
 
 ## 📌 Project Overview
