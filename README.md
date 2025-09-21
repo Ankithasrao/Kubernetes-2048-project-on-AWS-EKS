@@ -31,15 +31,15 @@ eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 ##### ✅ Why Fargate?
 AWS Fargate provides serverless compute for containers, so you don't need to manage EC2 nodes. It simplifies cluster management and auto-scales based on workload needs.
 It creates:
-✅ A dedicated VPC
-✅ Subnets (public and/or private)
-✅ Route Tables
-✅ Internet Gateway (IGW)
-✅ NAT Gateway (optional, depends on config)
-✅ Security Groups
-✅ Elastic IPs (for NAT)
-✅ IAM Roles and Policies
-✅ CloudFormation stack (manages all of the above)
+* ✅ A dedicated VPC
+* ✅ Subnets (public and/or private)
+* ✅ Route Tables
+* ✅ Internet Gateway (IGW)
+* ✅ NAT Gateway (optional, depends on config)
+* ✅ Security Groups
+* ✅ Elastic IPs (for NAT)
+* ✅ IAM Roles and Policies
+* ✅ CloudFormation stack (manages all of the above)
 
 ## ☸️ Step 3 : Configuring kubectl for EKS:
 * Use the AWS CLI to update the kubeconfig file:
